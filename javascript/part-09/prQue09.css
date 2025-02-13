@@ -1,0 +1,8 @@
+.btnClass{
+    background-color: blue;
+    color: white;
+}
+.underline{
+    text-decoration: 2px solid underline;
+    color: purple;
+}
