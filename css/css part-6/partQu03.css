@@ -1,0 +1,29 @@
+.loader{
+    height: 150px;
+    width: 150px;
+    border: 20px solid beige;
+    border-top: 20px solid goldenrod;
+    border-bottom: 20px double blueviolet;
+    border-radius: 50%;
+    animation: widthAnimate 3s linear infinite;
+}
+
+/* @keyframes widthAnimate{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+@keyframes widthAnimate{
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

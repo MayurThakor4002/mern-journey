@@ -1,0 +1,13 @@
+h1{
+    /* normal color type of value  */
+    color: rgb(197, 33, 226);
+}
+p{
+    /* rgb color value  */
+    background-color: rgb(0, 0, 0);
+    color: rgb(200,98, 70);
+}
+button{
+    background-color: #ffffff;
+    color: #0000ff;
+}

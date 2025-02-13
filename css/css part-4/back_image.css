@@ -1,0 +1,14 @@
+#bcImg{
+
+    color: white;
+    text-align: center;
+    background-color: red;
+    height: 700px;
+    width: 800px;
+    margin: 30px auto;
+    background-image: url("mobile.jpg");
+    /* background-size: contain; */
+    background-size: cover;
+    
+}
+

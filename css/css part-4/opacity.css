@@ -1,0 +1,17 @@
+/* only apply on color  */
+#alphachannel{
+  
+        height: 200px;
+        width: 200px;
+        background-color: rgba(255,0,0,0.4);
+}
+
+/* apply on color and also element  */
+
+#opacity{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: azure;
+    opacity: 0.7;
+}

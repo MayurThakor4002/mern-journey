@@ -1,0 +1,41 @@
+section{
+    margin: 0 auto;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 20px;
+    display: inline-block;
+
+}
+#static{
+    background-color: blue;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+/* relative  */
+#relative{
+    background-color: rgb(190, 228, 102);
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+/* absolute  */
+#absolute{
+    background-color: rgb(175, 76, 232);
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+/* fixed  */
+#fixed{
+    background-color: rgb(209, 51, 193);
+    position: fixed;
+    top: 200px;
+    right: 50px;
+}

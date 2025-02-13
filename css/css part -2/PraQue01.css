@@ -1,0 +1,30 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #1b74e4;
+}
+#searchbtn{
+    color:white;
+    background-color: black;
+}
+.userbtn{
+    background-color: aqua;
+}
+label[for="search"]{
+    color: red;
+}
+/* span button[class="userbtn"]{
+
+    color: darkmagenta;
+    font-weight: bold;
+} */
+
+span button {
+    color: violet;
+    font-weight: bold;
+}
+
+input[id="search"]{
+    background: greenyellow;
+}

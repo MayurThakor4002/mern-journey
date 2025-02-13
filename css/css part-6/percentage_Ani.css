@@ -1,0 +1,44 @@
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+
+    display: flex;
+    flex-direction: column;
+    animation: flexAnimate 2s ease-in-out infinite alternate;
+}
+@keyframes flexAnimate{
+
+    33%{
+        /* justify-content: flex-start; */
+        align-items: flex-start;
+        background-color: rgb(26, 255, 0);
+    }
+    66%{
+        /* justify-content: flex-end; */
+        align-items: flex-end;
+        background-color: rgb(0, 255, 191);
+    }
+    100%{
+        /* justify-content: center; */
+        align-items: center;
+        background-color: rgb(255, 145, 0);
+    }
+
+}
+.box{
+
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: gold;
+}
+.three{
+    background-color: navy;
+}

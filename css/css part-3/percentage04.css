@@ -1,0 +1,17 @@
+h1{
+    border: 2 px solid;
+    background-color: powderblue;
+    width: 33.33%;
+}
+#outer{
+
+    height: 400px;
+    width: 500px;
+    background-color: aquamarine;
+}
+#inner{
+    background-color: red;
+    width: 20%;
+    height: 25%;
+    margin-left: 10%;
+}

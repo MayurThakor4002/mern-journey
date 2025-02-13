@@ -1,0 +1,42 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+
+    animation: fontAnimate 3s ease-in 1s 3 alternate;
+    /* animation: colorAnimate 4s ease-in-out infinite alternate; */
+}
+@keyframes fontAnimate{
+    from{
+        /* font-size: 10px; */
+        width: 100px;
+        color: black;
+        background-color: blue;
+        height: 50px;
+    }
+    to{
+        /* font-size: 20px; */
+        width: 500px;
+        color: white;
+        background-color: blueviolet;
+        height: 300px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
+@keyframes colorAnimate{
+
+    from{
+        background-color: skyblue;
+         
+    }
+    to{
+        background-color: brown;
+        /* text-align: center; */
+    }
+}

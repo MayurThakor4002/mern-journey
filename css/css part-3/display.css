@@ -1,0 +1,18 @@
+ h1{
+    
+    background-color: khaki;
+    margin: 100px;
+    border: 2px solid black;
+    padding: 73px;
+    height: 100px;
+}
+
+
+span{
+    background-color: blue;
+    color: white;
+    margin: 100px;
+    border: 2px solid black;
+    padding: 19px;
+
+}

@@ -1,0 +1,14 @@
+p{
+    text-transform: uppercase;
+    color: #ffa511;
+    width: 410px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 55px;
+    background-color: aliceblue;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    font-family: league spartan
+}

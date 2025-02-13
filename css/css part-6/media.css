@@ -1,0 +1,21 @@
+h1{
+    background-color: rgb(171, 129, 50);
+}
+
+/* @media(width:600px){
+    h1{
+        background-color: fuchsia;
+    }
+} */
+@media(max-width:400px){
+    
+    h1{
+        background-color: sandybrown;
+    }
+}
+@media(max-width:750px) {
+    h1{
+        background-color: tomato;
+    }
+    
+}

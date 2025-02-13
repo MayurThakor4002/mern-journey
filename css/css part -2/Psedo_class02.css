@@ -1,0 +1,59 @@
+.button{
+    height: 100px;
+    border: solid;
+}
+/* psudo class  */
+    /* hover  */
+h1:hover{
+    color: brown;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+h3:hover{
+
+        text-decoration: dashed green overline;
+        text-align: center;
+}
+#login{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+button:hover{
+    background-color: purple;
+    color: aquamarine;
+}
+p:hover{
+    letter-spacing: 10px;
+}
+#login:hover{
+
+    color: white;
+    background-color: red;
+} 
+
+    /* active  */
+button:active{
+    background-color: blue;
+    color: white;
+}
+#login:active{
+    
+    color: rgb(140, 209, 201);
+    background-color: rgb(147, 87, 9);
+}
+p:active{
+    color: gold;
+    font-weight: bold;
+}
+input[type="radio"]:checked + label{
+
+    color: rgb(228, 13, 46);
+    
+}
+div:nth-of-type(1n){
+    background-color: burlywood;
+}

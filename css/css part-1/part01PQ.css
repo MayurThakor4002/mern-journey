@@ -1,0 +1,35 @@
+p{
+    color: #fcad03;
+}
+h1,h3,h4{
+    text-align: center;
+}
+h1{
+    color: red;
+    text-decoration: wavy black underline;
+}
+h3{
+    color: black;
+    line-height: 30px;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(27, 247, 38);
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+
+textarea::placeholder {
+    color:rgb(224, 22, 22);
+  }
+span{
+    text-decoration: underline black ;
+    color: blueviolet;
+}

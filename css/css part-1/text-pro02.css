@@ -1,0 +1,37 @@
+/* here, i use text-decoration property inside the anchor tag because remove the underline below the anchor tag  */
+a{
+
+    text-decoration: none;
+}
+h1{
+  text-align: center;
+  border: solid;
+  width: 50%;
+  text-decoration:wavy blue underline;
+  /* font-weight: normal; */
+  letter-spacing: 10px;
+}
+
+h2{
+    text-align: start;
+    border:solid;
+    text-decoration:dotted red overline;
+    letter-spacing: normal;
+}  
+p{
+    text-align: end;
+    border: 2px solid black;
+
+    /* line-height  (below different-different types to show line-height */
+    /* line-height: 20px; */
+    line-height: normal;
+    /* line-height: 1.5; */
+}
+h3{
+  /* font-weight: normal; */
+  font-weight: lighter;
+  text-decoration: solid rgb(6, 48, 6) line-through;
+}
+.weight{
+  font-weight: 900;
+}

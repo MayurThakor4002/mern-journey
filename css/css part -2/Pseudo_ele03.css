@@ -1,0 +1,11 @@
+#cs::first-letter{
+    color: rgb(197, 231, 24);
+}
+p::first-line{
+    color: aquamarine;
+}
+p::selection{
+    background-color: blue;
+    color: white;
+ 
+}

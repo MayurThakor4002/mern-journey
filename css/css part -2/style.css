@@ -1,0 +1,55 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+h3{
+    color: blue !important;
+}
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: greenyellow;
+}
+
+/* descedant selector  */
+
+.post a{
+    color: purple;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: yellowgreen;
+}
+nav ul li a{
+    color: rgb(40, 142, 6);
+}
+p + h3{
+  
+    color: rgb(221, 173, 14);
+    text-align: center;
+    text-decoration: dotted black line-through;
+}
+div > h3{
+    color: darkviolet;
+    background-color: red;
+}
+input[placeholder]{
+    color: #b92b27;
+}
+input[placeholder="password"]{
+    color: #ff1bf7;
+}
+div > ::placeholder{
+    color: blue;
+}
