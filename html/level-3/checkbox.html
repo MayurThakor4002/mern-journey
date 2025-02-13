@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkbox</title>
+</head>
+
+<body>
+    <form action="/server">
+        <!-- checkox type in input element  -->
+        <div>
+            <input type="checkbox" id="age" name="age" value="18+ up" checked />
+            <label for="age">I am 18<sup>+</sup></label>
+            <!-- <button>submit</button> -->
+        </div>
+        <div>
+            <br />
+        </div>
+        <!-- radio type in input element  -->
+        <!-- (name = value) in server site  -->
+        <!-- radio button use for choose one option in multiple options  -->
+        <div>
+            <input type="radio" name="fruit" id="mango" value="mango" />
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana" />
+            <label for="banana">banana</label>
+            <input type="radio" name="fruit" id="apple" value="apple" />
+            <label for="apple">apple</label>
+            <!-- <button>submit</button> -->
+        </div>
+        <div>
+            <br />
+        </div>
+        <div>
+            <b>Choose your Favourite Subjects:</b>
+            <input type="checkbox" id="dbms" name="sub" value="dbms" />
+            <label for="dbms">DBMS</label>
+            <input type="checkbox" id="oops" name="sub" value="oops" />
+            <label for="oops">OOPs</label>
+            <input type="checkbox" id="ds" name="sub" value="ds" />
+            <label for="ds">DS</label>
+            <!-- <button>Submit</button> -->
+        </div>
+        <div><br /></div>
+
+        <!-- select element  -->
+        <!-- dropdown in select element  -->
+
+        <div>
+           <label for="profession"><b>choose your profession</b></label>
+            <select name="profession" id="profession">
+                <option>Select your option</option>
+                <option value="student" selected>student</option>
+                <option value="dev">Developer</option>
+            </select>
+        </div>
+        <div><br /></div>
+
+        <!-- range in input element  -->
+        <div>
+            <label for="vol"><b>choose your volume level:</b></label>
+            <input type="range" id="vol" name="vol" min="0" max="100" step="15" />
+        </div>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>

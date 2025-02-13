@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Table</title>
+    <style>
+
+        /* Style for the first table with a border */
+        .bordered-table {
+            margin: auto;
+            /* border: 2px solid violet; */
+            text-align: center;
+        }
+
+        .bordered-table thead tr {
+            background-color: black;
+            color: white;
+        }
+
+        .bordered-table tbody tr {
+            background-color: grey;
+        }
+
+        tr>td {
+            padding: 15px;
+        }
+
+        tr:nth-of-type(odd) {
+            color: yellow;
+        }
+
+        tr:nth-of-type(even) {
+            color: green;
+        }
+        h1{
+            background-color: black;
+            color: white;
+            text-align: center;
+            text-decoration: wavy underline blue;
+            width: 50%;
+            margin: 20px auto;
+        }
+        h1:hover{
+            background-color: blueviolet;
+            color: goldenrod;
+            letter-spacing: 10px;
+            text-transform: lowercase;
+        }
+    </style>
+</head>
+
+<body>
+        <h1>TIME-TABLE</h1>
+    <table class="bordered-table" border="none">
+        <thead>
+            <tr>
+                <!-- <th>Day</th>
+                <th>9:00 AM to 10:00 PM</th>
+                <th>10:00 AM to 11:00 PM</th>
+                <th>11:00 AM to 12:00 PM</th>
+                <th>12:00 AM to 01:00 PM</th>
+                <th>01:00 AM to 02:00 PM</th>
+                <th>02:00 AM to 2:15 PM</th>
+                <th>2:15 AM to 03:15 PM</th>
+                <th>3:15 AM to 4:15 PM</th> -->
+                <th>Day</th>
+                <th>9 to 10</th>
+                <th>10 to 11</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="raws">
+                <td>Monday</td>
+                <td>CS404{Ms.Bp}</td>
+                <td>MATH401{Mr.DD}</td>
+                <td>CS403{Dr.VD}</td>
+                <td rowspan="6">Recess</td>
+                <td>CS401{Dr.VT}</td>
+                <td rowspan="6">Recess</td>
+                <td colspan="2">Batch-A3(CS404 Lab)</td>
+            </tr>
+
+            <tr class="raws">
+                <td>Tuesday</td>
+                <td>CS403{Mr.VD}</td>
+                <td>Library</td>
+                <td>CS401{Dr.VT}</td>
+                <td>NPTEL</td>
+                <!-- <td rowspan="6">Recess</td>
+                <td colspan="2">Batch-A3(CS404 Lab)</td> -->
+                <td colspan="2">CS402(Lab){Ms.RM}</td>
+            </tr>
+
+            <!-- <tr>
+                <td>Saturday</td>
+                <td colspan="2">Sports</td>
+                <td>MATH-401{Mr.DD}</td>
+                <td></td>
+                <td>CS401{Dr.VT}</td>
+                <td></td>
+                <td colspan="2">CS405{Mr.BJ}</td>
+            </tr> -->
+            <tr class="raws">
+                <td>Wednesday</td>
+                <td>CS402{Ms.RM}</td>
+                <td>Aptitude{Dr.KV}</td>
+                <td>CS404{Dr.BP}</td>
+                <td>Library</td>
+                <td colspan="2">Club Activity</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Math401{Mr.DP}</td>
+                <td>HS401{Ms.BB}</td>
+                <td>CS402{Ms.RM}</td>
+                <td>CS403{Dr.VD}</td>
+                <td>CS404{Ms.BP}</td>
+                <td>Library</td>
+            </tr>
+            <tr class="raws">
+                <td>Friday</td>
+                <td>CS402{Ms.RM}</td>
+                <td>MATH401{Mr.Dp}</td>
+                <td>HS401{Ms.BB}</td>
+                <td>CS403{Dr.VP}</td>
+                <td colspan="2">CS401(LAB){Ms.PM}</td>
+            </tr>
+            <tr class="raws">
+                <td>Saturday</td>
+                <td colspan="2">Sports</td>
+                <td>MATH-401{Mr.DD}</td>
+                <td>CS401{Dr.VS}</td>
+
+                <td colspan="2">CS405{Mr.BJ}</td>
+            </tr>
+            <tr class="raws">
+                <td>Sunday</td>
+                <td colspan="8">Holiday</td>
+            </tr>
+        </tbody>
+    </table>
+
+   
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 150px;
+  margin: auto;
+
+  background-color: rgb(184, 125, 206);
+  border-radius: 25%;
+  width: 70%;
+  height: 600px;
+}
+
+.box {
+  margin: 10px 10px;
+}
+
+input {
+  margin-left: 20px;
+  width: 200px;
+  height: 30px;
+  border-radius: 6px;
+}
+
+label {
+  font-weight: bold;
+  /* margin: auto; */
+}
+
+input::placeholder {
+  text-align: center;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.Conf_pass {
+  position: relative;
+  right: 20px;
+}
+
+.phoneNumber {
+  position: relative;
+  right: 6px;
+}
+
+.btn {
+  display: flex;
+  margin-left: 110px;
+  width: 41%;
+  justify-content: space-evenly;
+}
+.gender {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-right: 75px;
+}
+
+.gender > label {
+  margin-right: 15px;
+}
+.gender > select {
+  width: 20%;
+  height: 125%;
+}
