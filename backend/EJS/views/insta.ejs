@@ -1,0 +1,19 @@
+
+<%- include("includes/head.ejs") %>
+<body>
+    <h1>This is page belongs to @<%= username %>
+    </h1>
+    <button>Follow</button>
+    <button>Message</button>
+    <h2>Accounts list that follow you:</h2>
+    <ul>
+
+    </ul>
+    <% for(let name of followers){ %>
+        <li>
+            <%= name %>
+        </li>
+        <% } %>
+</body>
+
+</html>
