@@ -37,7 +37,8 @@ class Teacher extends Person {
 
 // Creating an instance of Student
 let stud1 = new Student("calf", 23, 90);
-console.log(stud1);  // Logs the Student object with its properties
+
+console.log(stud1);  // Logs the Student object with its propert3ies
 console.log(stud1.name); // Accesses 'name' property of Student
 stud1.talk(); // Calls the inherited 'talk' method from Person
 
